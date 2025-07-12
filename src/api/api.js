@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://backend-1-l9n0.onrender.com/api/v1/',
+  baseURL: 'https://project-2125-backend.onrender.com/api/v1/',
   withCredentials: true,
   validateStatus: (status) => status >= 200 && status < 300,
   headers: {
